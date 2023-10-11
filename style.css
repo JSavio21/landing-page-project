@@ -23,10 +23,15 @@ gap: 12px;}
 a{text-decoration: none;
     color: #E5E7EB;}
 
+
+.principal{width: 2000px;
+    height: 250px;}
+    
+
 content{display: flex;
     background-color: #1F2937;
 padding: 200px;
-padding-top: 50px;
+padding-top: 100px;
 padding-bottom: 150px;
 align-items: center;
 letter-spacing: normal;}
@@ -51,9 +56,3 @@ button{background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 20px;
 padding:12px;}
-
-img{width: 1000px;
-height: 250px;}
-
-
-
