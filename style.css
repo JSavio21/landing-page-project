@@ -8,6 +8,7 @@ align-items: center;
 padding-top: 8px;
 padding-left: 200px;
 padding-right: 200px;
+padding-bottom: 75px;
 letter-spacing: normal;}
 
 .logo{font-size: 24px;
@@ -32,19 +33,20 @@ content{display: flex;
     background-color: #1F2937;
 padding: 200px;
 padding-top: 100px;
-padding-bottom: 150px;
+padding-bottom: 200px;
 align-items: center;
 letter-spacing: normal;}
 
 
 .title{text-align: start;
 font-size: 48px;
-font-weight: 900 ;
+font-weight: bolder;
 color: #F9FAF8;
-margin: 0px;}
+margin-bottom: 24px;}
 
 .subtext{font-size: 18px;
     margin: 12px;
+    margin-bottom: 24px;
     margin-left: 0;
     color: #E5E7EB;}
 
@@ -55,4 +57,64 @@ button{background-color: #3882F6;
     font-weight: 900 ;
     color: #F9FAF8;
     border-radius: 20px;
-padding:12px;}
+padding:8px;}
+
+content2{text-align: center;}
+
+.duendefoto{width: 200px;
+height: 200px;
+border-radius: 25px;
+border: 8px #3882F6;
+border-style:outset;}
+
+.info{font-size: 32px;
+font-weight: 900;
+padding: 45px;
+color: #1F2937}
+
+.container{display: flex;
+justify-content: center;
+gap:52px;
+padding-bottom: 150px;}
+
+.data{max-width: 200px;
+    font-size: 18px;
+    color: #1F2937}
+
+.quote{background-color:#E5E7EB;
+text-align: center;
+padding: 200px;}
+
+.phrase{font-size: 36px;
+font-style:italic;
+font-weight: light;
+color:#1F2937}
+
+.action{padding: 200px;
+background-color:#F9FAF8;}
+
+.actioncontent{background-color: #3882F6;
+padding: 50px;
+border-radius: 25px;
+display: flex;
+justify-content: space-around;
+align-items: center;}
+
+.atitle{color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: 6px;
+}
+
+.asubtext{color: #E5E7EB;
+font-size: 18px;}
+
+.button2{border-color: #F9FAF8;
+border-radius: 12px;
+border-width: 4px;
+font-weight: bolder;
+font-size: 20px;
+width: 150px;
+height: 50px;
+}
+
